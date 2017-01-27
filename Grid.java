@@ -31,8 +31,8 @@ public class Grid {
   x = 0;
   minX = 1;
   minY = 1;
-  maxX = 50;
-  maxY = 50;
+  maxX = 51;
+  maxY = 51;
   startX = 0;
   startY = 0;
   s = "";
@@ -217,11 +217,11 @@ for (int index = 0; index < values.length; index++) {
 
 }
 return iValues;
-}
- public void setmaxX(int mx){
+    }
+    public void setmaxX(int mx){
      maxX = mx;
     }
- public void setmaxY(int my){
+    public void setmaxY(int my){
      maxY = my;
     }
      public void setstartX(int sx){
@@ -236,19 +236,19 @@ return iValues;
     public void settempPositionx(int x){
         tempPositionx = x;
     }
-        public void settempPositiony(int y){
-        tempPositiony = y;
+    public void settempPositiony(int y){
+      tempPositiony = y;
     }
     public int gettempPositionx(){
-        return tempPositionx;
+     return tempPositionx;
     }
-        public int gettempPositiony(){
-        return tempPositiony;
+    public int gettempPositiony(){
+     return tempPositiony;
     }
- public int getmaxX(){
+    public int getmaxX(){
      return maxX;
     }
- public int getmaxY(){
+    public int getmaxY(){
      return maxY;
     }
      public int getstartX(){
